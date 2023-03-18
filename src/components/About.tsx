@@ -28,7 +28,7 @@ const About = () => {
                 always eager to learn new things and take on opportunities whenever possible. I am passionate about staying on the cutting 
                 edge of this field, continuously seeking out new challenges to push my boundaries and expand my knowledge. With my curiosity 
                 and drive, I am not afraid to take risks and constantly looking for ways to improve myself and my skillset.
-                <br /><br /> On my free time, I like to watch anime, travel, and explore new things.
+                <br /><br /> On my free time, I like to watch anime, travel, and learn new things.
               </p>
             </div>
           </motion.div>
