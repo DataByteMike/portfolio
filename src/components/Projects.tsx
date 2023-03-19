@@ -20,7 +20,7 @@ const Projects = (props: Props) => {
             My Recent Work
           </h2>
           <p className="subtitle">
-            List Of Projects I've Worked On/Collaborated With People<br />
+            {"List Of Projects I've Worked On/Collaborated With People"}<br />
             <span className="">&darr;</span>
           </p>
         </div>

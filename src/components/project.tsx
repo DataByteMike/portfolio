@@ -13,9 +13,9 @@ const Project = () => {
           if (index === 0) {
             return (
               // Active links
-              <Link href={item.url} className="cursor-pointer" target="_blank">
+              <Link key={index} href={item.url} className="cursor-pointer" target="_blank">
                 <div className="bg-secondary p-5 rounded-md">
-                  <div key={index} className="flex flex-col items-center text-center">
+                  <div className="flex flex-col items-center text-center">
                     <Image className="mb-8" src={item.photo} width={428} height={343} alt="" />
                     <p className="capitalize text-accent text-sm mb-3">{item.category}</p>
                     <h3 className="text-2xl font-semibold capitalize mb-3">{item.name}</h3>
@@ -27,8 +27,8 @@ const Project = () => {
           else {
             // Unactive links
             return (
-              <div className="bg-secondary p-5 rounded-md">
-                <div key={index} className="flex flex-col items-center text-center">
+              <div key={index}  className="bg-secondary p-5 rounded-md">
+                <div className="flex flex-col items-center text-center">
                   <Image className="mb-8" src={item.photo} width={428} height={343} alt="" />
                   <p className="capitalize text-accent text-sm mb-3">{item.category}</p>
                   <h3 className="text-2xl font-semibold capitalize mb-3">{item.name}</h3>

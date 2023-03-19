@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="flex items-center h-full pt-8">
           {/* Left Side */}
           <div className="flex flex-1 flex-col items-center lg:items-start">
-            <p className="text-lg text-accent mb-[22px]">Hey, I'm Michael</p>
+            <p className="text-lg text-accent mb-[22px]">{"Hey, I'm Michael"}</p>
             <h1 className="text-center lg:text-left text-4xl leading-[44px] font-bold lg:text-5xl lg:leading-tight xl:text-7xl lg:tracking-[-2px]">
               I Code & Design <br /> Web Interfaces <br /> And Software.
             </h1>
@@ -27,7 +27,7 @@ const Hero = () => {
                   className="relative w-full text-left text-black transition-colors 
                   duration-300 ease-in-out group-hover:text-white"
                 >
-                  Let's Talk
+                  {"Let's Talk"}
                 </span>
               </button>
             </Link>
