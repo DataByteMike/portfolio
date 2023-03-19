@@ -12,8 +12,8 @@ const Hero = () => {
               I Code & Design <br /> Web Interfaces <br /> And Software.
             </h1>
             <p className="max-w-[480px] text-lg text-center pt-4 pb-8 md:pt-6 md:pb-12 lg:text-left">
-              A Software Engineer who is fascinated by technologies and passionate about creating
-              innovative products with creative and engaging design.
+              A Software Engineer who is passionate about creating
+              innovative products with creative and engaging designs.
             </p>
             {/* Contact */}
             <Link href={"#contact"}>
