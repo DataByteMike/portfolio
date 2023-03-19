@@ -34,26 +34,26 @@ export const projectsList = [
     url: ""
   },
   {
-    name: "Not avaible",
-    category: "Not avaible",
+    name: "Not available",
+    category: "Not available",
     photo: "/project_img/none.png",
     url: ""
   },
   {
-    name: "Not avaible",
-    category: "Not avaible",
+    name: "Not available",
+    category: "Not available",
     photo: "/project_img/none.png",
     url: ""
   },
   {
-    name: "Not avaible",
-    category: "Not avaible",
+    name: "Not available",
+    category: "Not available",
     photo: "/project_img/none.png",
     url: ""
   },
   {
-    name: "Not avaible",
-    category: "Not avaible",
+    name: "Not available",
+    category: "Not available",
     photo: "/project_img/none.png",
     url: ""
   },

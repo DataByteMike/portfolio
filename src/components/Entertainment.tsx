@@ -2,9 +2,9 @@ const Entertainment = () => {
   return (
     <div className="py-8 lg:py-12 bg-tertiary">
       <div className="container mx-auto">
-        <div className="m-auto relative block w-[400px] lg:w-[600px] h-[100px] border-b-white border-b-[3px] overflow-hidden">
+        <div className="m-auto relative block w-[250px] sm:w-[600px] h-[100px] border-b-white border-b-[3px] overflow-hidden">
           <div className="mountain-car" />
-          <div className="absolute w-[117px] h-[32px] left-[35%] lg:left-[40%] top-[20px] wind">
+          <div className="absolute w-[117px] h-[32px] left-[18%] sm:left-[40%] top-[20px] wind">
             <div className="absolute block w-0 h-0 top-[38px] left-[20px] border-[20px] border-transparent border-b-8 
               border-b-[#ffe4e1] border-l-[20px] border-l-[#ffe4e1]" 
             />
