@@ -1,9 +1,7 @@
 import { motion } from "framer-motion";
 import Project from "./Project";
 
-type Props = {}
-
-const Projects = (props: Props) => {
+const Projects = () => {
   return (
     <motion.section
       initial={{ opacity: 0}}
