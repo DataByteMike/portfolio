@@ -8,7 +8,7 @@ const Skill = () => {
           {/* Left Side */}
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <div className="flex flex-col">
-              <h2 className=" text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-skill relative before:absolute before:opacity-20 before:-top-[2rem] before:hidden before:lg:block">
+              <h2 className=" text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-technical relative before:absolute before:opacity-20 before:-top-[2rem] before:hidden before:lg:block">
                 Skill
               </h2>
               <p className="mb-4 text-accent tracking-[2px]">What I Worked With</p>
@@ -33,7 +33,7 @@ const Skill = () => {
             </div>
           </div>
           {/* Right Side */}
-          <Image className="object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl" src={"/normal_img/book.jpg"} width={556} height={556} alt="Stack of books"/>
+          <Image className="object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl" src={"/normal_img/laptop.jpg"} width={556} height={556} alt="Stack of books"/>
         </div>
       </div>
     </section>

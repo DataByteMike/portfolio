@@ -62,14 +62,14 @@ export const projectsList = [
 // contact
 export const contact = [
   {
-    title: 'Have a question?',
+    title: 'Have A Question?',
     subtitle: 'Reach out to me.',
-    description: 'Email Me At databytemike@gmail.com',
+    description: 'Email me at databytemike@gmail.com',
     logo: <FaEnvelope />
   },
   {
     title: 'LinkedIn',
-    subtitle: 'Can Reach Me Here As Well',
+    subtitle: 'Can reach me here as well',
     description: 'www.linkedin.com/in/michaelgourdine',
     logo: <Link href="https://www.linkedin.com/in/michaelgourdine/" target="_blank"><FaLinkedin  /></Link>
   },
