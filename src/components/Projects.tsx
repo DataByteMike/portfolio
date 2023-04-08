@@ -23,15 +23,15 @@ const Projects = () => {
           >
             My Recent Work
           </h2>
-          <p className="subtitle">
-            {"List Of Projects I've Worked On/Collaborated With People"}<br />
+          <p className="subtitle flex flex-col">
+            {"List Of Projects I've Worked On/Collaborated With People"}
             <span className="animate-bounce">&darr;</span>
           </p>
         </div>
         <div>
           <div className="grid lg:grid-cols-3 gap-y-12 lg:gap-x-8 lg:gap-y-8">
             {projects.map((item, index) => {
-              if (index === 0) {
+              if (index === 2) {
                 return (
                   // Active links
                   <Link key={index} href={item.url} className="cursor-pointer" target="_blank">
