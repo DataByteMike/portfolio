@@ -30,7 +30,7 @@ export const projectsList = [
   {
     name: "Travel Oasis",
     category: "Web Development (Next.js, React, Tailwind)",
-    photo: "/project_img/travel-oasis",
+    photo: "/project_img/travel-oasis.png",
     url: "https://travel-oasis.vercel.app"
   },
   {
