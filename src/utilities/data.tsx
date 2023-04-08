@@ -28,10 +28,10 @@ export const projectsList = [
     url: "https://ad-nav.github.io/adn/"
   },
   {
-    name: "Soon",
-    category: "Soon",
-    photo: "/project_img/none.png",
-    url: ""
+    name: "Travel Oasis",
+    category: "Web Development (Next.js, React, Tailwind)",
+    photo: "/project_img/travel-oasis",
+    url: "https://travel-oasis.vercel.app"
   },
   {
     name: "Not available",

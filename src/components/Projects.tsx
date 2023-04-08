@@ -25,7 +25,7 @@ const Projects = () => {
           </h2>
           <p className="subtitle">
             {"List Of Projects I've Worked On/Collaborated With People"}<br />
-            <span className="">&darr;</span>
+            <span className="animate-bounce">&darr;</span>
           </p>
         </div>
         <div>
