@@ -31,7 +31,7 @@ const Projects = () => {
         <div>
           <div className="grid lg:grid-cols-3 gap-y-12 lg:gap-x-8 lg:gap-y-8">
             {projects.map((item, index) => {
-              if (index === 2) {
+              if (index < 2) {
                 return (
                   // Active links
                   <Link key={index} href={item.url} className="cursor-pointer" target="_blank">
